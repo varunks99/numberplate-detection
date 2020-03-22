@@ -9,6 +9,7 @@ from PIL import ImageTk, Image
 
 #This is for OCR. You will have to download Tesseract on your device.
 #Refer to this page on how to download: https://github.com/tesseract-ocr/tesseract/wiki
+#Once you download tesseract, you will have to place the path of the exe file below
 pytesseract.pytesseract.tesseract_cmd = 'E:/Program Files/Tesseract-OCR/tesseract.exe'
 
 #Function to open image and display it in the GUI
